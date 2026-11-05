@@ -5,7 +5,7 @@ function hasJwtCookie(request) {
   return cookieHeader.split(';').some((c) => c.trim().startsWith('jwt='));
 }
 
-export function middleware(request) {
+export function proxy(request) {
   const { pathname } = request.nextUrl;
   const isAuthenticated = hasJwtCookie(request);
 
