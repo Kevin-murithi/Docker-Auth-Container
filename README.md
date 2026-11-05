@@ -505,4 +505,4 @@ The CI pipeline will automatically run tests on your PR.
 
 ## License
 
-MIT License — see `LICENSE` file for details.
+MIT License — see `LICENSE` file for details
